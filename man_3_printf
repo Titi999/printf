@@ -37,13 +37,5 @@ X   prints a hexadecimal number in caps
 
 .SH RETURN
 The function will return the number of characters printed. If unsuccessful the function will return null.
-.SH EXAMPLES
-To print "Today is Tuesday" you would do as follow, where day is a pointer to a string:
-
- #include "Holberton.h"
- _printf("Today is %s", day);
-
-To print "It is 1" you would do as follows, where time is a pointer to a integer:
-
- #include "Holberton.h"
- _printf("It is %d", time);
+.SH AUTHOR
+Miheret tadesse and Abubakari Maltiti Bilal
